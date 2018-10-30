@@ -3,7 +3,7 @@
 1) Создание таблицы посещений:
 
     ```clickhouse
-    CREATE TABLE visits2 (
+    CREATE TABLE visits (
            `ip_address` UInt32,
            `country` String,
            `url` String,
